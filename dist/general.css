@@ -1,0 +1,123 @@
+header {
+  max-width: 1200px;
+  margin-inline: auto;
+  height: 300px;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+header .topnav {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+}
+header .topnav nav ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+  gap: 15px;
+}
+header h1 {
+  width: 40%;
+  font-size: 40px;
+  text-transform: uppercase;
+}
+
+main {
+  padding-block-end: 100px;
+  width: 100%;
+  max-width: 1200px;
+  margin-inline: auto;
+}
+main .home__body {
+  display: flex;
+  flex-direction: column;
+}
+main .home__body .card {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 50px;
+}
+main .home__body .card:nth-child(even) {
+  direction: rtl;
+}
+main .home__body .card .content {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
+
+.about {
+  margin-block-end: 100px;
+  max-width: 1200px;
+  margin-inline: auto;
+  padding-block-start: 50px;
+}
+.about h3 {
+  margin-block: 20px;
+  text-transform: uppercase;
+}
+
+.events__page {
+  max-width: 1200px;
+  margin-inline: auto;
+  padding: 100px 50px;
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+.events__page .events__card {
+  position: relative;
+}
+.events__page .events__card h2 {
+  position: absolute;
+  top: 50%;
+  text-align: center;
+  color: white;
+  text-transform: uppercase;
+  font-size: 38px;
+}
+
+.cat__events {
+  padding: 100px 50px;
+  max-width: 1200px;
+  margin-inline: auto;
+}
+.cat__events h1 {
+  padding: 10px;
+  text-align: center;
+  text-transform: uppercase;
+}
+.cat__events .content {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.cat__events .content .cat__card {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+}
+
+.cat__final {
+  max-width: 1200px;
+  margin-inline: auto;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding: 100px 50px;
+}/*# sourceMappingURL=general.css.map */
